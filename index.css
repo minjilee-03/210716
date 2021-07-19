@@ -1,0 +1,695 @@
+body,
+li {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.new-title p {
+    position: relative;
+    top: -70px;
+    font-size: 1.5rem;
+    float: right;
+    padding-right: 70px;
+}
+
+.head-blue {
+    background: url(https://waterpik.co.kr/new2/img/headerBAR.jpg);
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-sub {
+    width: 100%;
+    height: 75px;
+    background-color: white;
+}
+
+.head-sub img {
+    position: absolute;
+    padding-left: 250px;
+    margin-right: 0px;
+}
+
+nav {
+    height: auto;
+    padding: 20px;
+}
+
+.nav_box {
+    display: inline-block;
+    height: 70px;
+    position: relative;
+    z-index: 5;
+    padding-left: 150px;
+    top: -30px;
+    right: -250px;
+}
+
+.hd-li {
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.hd-li a {
+    font-size: 1.0rem;
+    color: #333;
+    height: 70px;
+    line-height: 71px;
+    display: block;
+    position: relative;
+    text-decoration-line: none;
+}
+
+.head-blue span {
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px;
+    letter-spacing: -1.7px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.head-blue span:after {
+    content: "";
+    width: 18px;
+    height: 8px;
+    display: inline-block;
+    background: url(https://waterpik.co.kr/new2/img/hB_arr.png) no-repeat 0 0;
+    vertical-align: middle;
+    position: absolute;
+    margin-left: 1%;
+    top: 15px
+}
+
+.btn {
+    float: right;
+    position: relative;
+    right: 50px;
+    top: -10;
+}
+
+.btn li {
+    float: left;
+    width: 80px;
+    height: 30px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    color: white;
+}
+
+.where {
+    background-color: rgb(192, 195, 196);
+}
+
+.buy {
+    background-color: #00cd00;
+}
+
+.li-as {
+    background-color: #1870ad;
+}
+
+.btn .menu {
+    display: none;
+}
+
+.swiper-container {
+    background-color: #9cb9c1;
+    height: 100%;
+    padding: 0 280px 0 280px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.swiper-slide-container img {
+    text-align: right;
+    bottom: -50px;
+}
+
+.c-t {
+    font-size: 1.65rem;
+    font-weight: lighter;
+    letter-spacing: -3px;
+    color: white;
+}
+
+.t_eng {
+    font-size: 3.7rem;
+    letter-spacing: -3px;
+    font-weight: 600;
+    color: white;
+    margin: 0 auto;
+}
+
+.t_about {
+    font-size: 1.18rem;
+    font-weight: 500;
+    padding-top: 20px;
+    letter-spacing: -1.8px;
+    line-height: 1.6;
+    margin: 0 auto;
+    margin-bottom: 105px;
+    color: white;
+}
+
+.txt {
+    float: left;
+    width: 45%;
+    margin-right: 50px;
+    margin-top: 13%;
+}
+
+.txt span:before {
+    content: "";
+    background: url(https://waterpik.co.kr/new2/img/visual_arr.png);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.new-title {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.new-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.nt {
+    width: 20%;
+    margin-right: 70px;
+    float: left;
+    border-top: 1px solid #ddd;
+}
+
+.nt1 {
+    margin-left: 30px;
+}
+
+.nt::after {
+    clear: both;
+}
+
+.ic {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 350px;
+}
+
+.nt1-imgcontainer {
+    background-color: #e0cfcf;
+}
+
+.nt2-imgcontainer {
+    background-color: #d8decd;
+}
+
+.nt3-imgcontainer {
+    background-color: #e5e1d3;
+}
+
+.nt-sub {
+    text-align: center;
+}
+
+.ic img {
+    width: 300px;
+    height: 300px;
+}
+
+.title {
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.name {
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: lighter;
+    font-size: 2.6rem;
+}
+
+h2 {
+    width: 100%;
+    border: 1px solid yellow;
+}
+
+.about {
+    background-color: #f3f3f3;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+}
+
+.about-sub {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    clear: both;
+    text-align: center;
+}
+
+.about-sub p {
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.about-wrap {
+    height: 300px;
+    padding-left: 250px;
+    padding-right: 250px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.aw {
+    width: 20%;
+    height: 300px;
+    float: left;
+}
+
+.aw::after {
+    clear: both;
+}
+
+.about li::after {
+    clear: both;
+}
+
+.about span {
+    width: 100%;
+    margin-top: 12px;
+    display: inline-block;
+    text-align: center;
+}
+
+.arrangement {
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: center;
+}
+
+.box {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.box::after {
+    clear: both;
+}
+
+.icon {
+    position: relative;
+    top: -60px;
+    z-index: 10px;
+    border-radius: 500px;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ar-sub {
+    width: 100%;
+    top: -50px;
+    position: relative;
+}
+
+.ar-sub p {
+    font-size: 30px;
+}
+
+.ar-sub span {
+    font-size: 20px;
+}
+
+.box-img {
+    width: 100%;
+    height: 100%;
+}
+
+.box-img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.footer {
+    background: #fff;
+    height: 200px;
+    padding: 50px 0;
+}
+
+.inner {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.footer .f_sec01 {
+    float: left;
+    margin-right: 5%;
+}
+
+.footer .f_sec01 span:before {
+    content: "";
+    background: url(https://waterpik.co.kr/new2/img/blog_icon.png) 0 0 no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.footer .f_sec01::after {
+    clear: both;
+}
+
+.footer .f_sec02 {
+    float: left;
+    padding-top: 10px;
+}
+
+.footer .f_sec02::after {
+    clear: both;
+}
+
+.footer .f_sec03 {
+    float: right;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.footer .f_sec03::after {
+    clear: both;
+}
+
+.footer .f_sec03 span {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #000;
+    letter-spacing: -0.5px;
+    display: inline-block;
+}
+
+.footer .f_sec03 span:before {
+    content: "";
+    display: inline-block;
+    background: url(https://waterpik.co.kr/new2/img/f_tel_icon.png) 0 0 no-repeat;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.footer .f_sec03 p {
+    font-size: 1.2rem;
+    color: #444;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    line-height: 1.2;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .header .head .head-blue {
+        background: url(https://waterpik.co.kr/new2/img/headerBAR.jpg);
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header .head .head-blue span {
+        color: #fff;
+        font-weight: bold;
+        font-size: 35px;
+        padding: 8px;
+        letter-spacing: -1.7px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    .header .head .head-blue span:after {
+        content: "";
+        width: 18px;
+        height: 8px;
+        display: inline-block;
+        background: url(https://waterpik.co.kr/new2/img/hB_arr.png) no-repeat 0 0;
+        vertical-align: middle;
+        position: absolute;
+        margin-left: 2%;
+        top: 60px;
+    }
+
+    .header .head .head-sub {
+        width: 100%;
+        height: 100px;
+        background-color: white;
+    }
+
+    .header .head .head-sub .nav_box {
+        display: none;
+    }
+
+    .header .head .head-sub .btn li {
+        float: left;
+        width: 110px;
+        height: 50px;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 5px;
+        color: white;
+    }
+
+    .header .head .head-sub .btn {
+        float: right;
+        position: relative;
+        right: 10px;
+        top: -10;
+    }
+
+    .header .head .head-sub .where {
+        display: none;
+    }
+
+    .header .head .head-sub .btn .li-as {
+        margin-left: 20px;
+    }
+
+    .header .head .head-sub .btn .menu {
+        display: block;
+    }
+
+    .header .head .head-sub .btn .menu img {
+        width: 20%;
+        height: auto;
+        padding-left: 20px;
+    }
+
+    .header .head .head-sub nav .logo img {
+        width: 20%;
+        height: auto;
+        padding-left: 50px;
+    }
+
+    .new .new-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+
+    .new .new-container .nt {
+        width: 100%;
+        float: left;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 0 auto;
+    }
+
+    .new .new-container .nt .ic {
+        float: left;
+        display: flex;
+        width: 50%;
+        padding-bottom: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .new .new-container .nt .ic::after {
+        clear: both;
+    }
+
+    .new .new-container .nt .nt-sub {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        padding-left: 25px;
+    }
+
+    .new .new-container .nt .nt-sub .title {
+        width: 100%;
+        font-size: 2.2rem;
+    }
+
+    .new .new-container .nt .nt-sub .name {
+        padding-top: 15px;
+        width: 100%;
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+
+    .about .about-container .about-wrap {
+        height: 300px;
+        padding-left: 100px;
+        padding-right: 100px;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about .about-container .about-wrap .aw {
+        width: 50%;
+        height: 300px;
+        float: left;
+    }
+
+    .about .about-container .about-sub {
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .about .about-container .about-sub p {
+        padding-left: 55px;
+        padding-right: 55px;
+        font-size: 1.8rem;
+    }
+
+    .new .new-title h1 {
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+        padding-left: 70px;
+        font-weight: lighter;
+        font-size: 3.5rem;
+    }
+
+    .about .about-container .about-sub h1 {
+        width: 100%;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 3.5rem;
+    }
+
+    .about-container {
+        height: 1150px;
+    }
+
+    .arrangement {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 30px;
+    }
+
+    .box-img img {
+        width: 100%;
+        height: 100%;
+        display: none;
+        object-fit: cover;
+    }
+
+    .icon {
+        top: 30px;
+        right: 350px;
+        border-radius: 500px;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        background-color: white;
+        border: 1px solid #ddd;
+    }
+
+    .ar-sub {
+        width: 100%;
+        position: relative;
+    }
+
+    .ar-sub p {
+        font-size: 30px;
+        margin: 0 auto;
+    }
+
+    .ar-sub span {
+        font-size: 20px;
+    }
+
+    .arrangement {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box-img {
+        width: 100%;
+        height: 100%;
+    }
+}
